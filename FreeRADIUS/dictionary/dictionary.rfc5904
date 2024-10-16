@@ -1,11 +1,12 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: 391c101978176b0cb9f9f0031b2c65f673f70ff8 $
 #
 #	Attributes and values defined in RFC 5904.
 #	http://www.ietf.org/rfc/rfc5904.txt
 #
-#	$Id: 7f2cf2d309f26b11c96ed6f4270d4bd820e436d7 $
+#	$Id: 391c101978176b0cb9f9f0031b2c65f673f70ff8 $
 #
 
 # The next two attributes are continued, like EAP-Message

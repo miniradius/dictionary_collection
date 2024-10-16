@@ -1,13 +1,13 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-#
+# Version $Id: 5550b3c2f1fa792d57ad44147b1170602cce2624 $
 ##############################################################################
 #
 #	Attributes and values defined in RFC 4818.
 #	http://www.ietf.org/rfc/rfc4818.txt
 #
-#	$Id: cc56252f267a6932171feb5fddc44218ade35841 $
+#	$Id: 5550b3c2f1fa792d57ad44147b1170602cce2624 $
 #
 ##############################################################################
 

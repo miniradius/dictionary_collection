@@ -1,6 +1,7 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: 45e0cbc4cd948ddd85ad40235fb1baf305fd785f $
 #
 #	Attributes and values defined in RFC 6677
 #	http://www.ietf.org/rfc/rfc6677.txt

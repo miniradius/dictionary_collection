@@ -1,15 +1,17 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: ac855e3aa3d290511892cbd4bf5bf557f2ee7325 $
+#
+#  dictionary.aerohive
 #
 #  Aerohive (now Extreme Networks, Inc.)
 #
-#	$Id: 53b4daec44ca4be34cea0b68d0ead5d88c25a310 $
+#	$Id: ac855e3aa3d290511892cbd4bf5bf557f2ee7325 $
 #
 VENDOR		Aerohive			26928
 
 BEGIN-VENDOR	Aerohive
-#BEGIN-VENDOR Extreme
 
 # Source: http://docs.aerohive.com/330000/docs/help/english/ng/Content/reference/docs/radius-dictionary.htm
 # Last-updated-date 25-October-2017
@@ -73,3 +75,4 @@ VALUE	Extreme-Auth-Source		Service			1
 VALUE	Extreme-Auth-Source		Non-Service		2
 
 END-VENDOR      Aerohive
+ALIAS		Aerohive				Vendor-Specific.Aerohive

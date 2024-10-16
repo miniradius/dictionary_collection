@@ -1,11 +1,12 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: 0bbfc571674902083397ae3018e3789aad426993 $
 #
 #	Attributes and values defined in RFC 2869.
 #	http://www.ietf.org/rfc/rfc2869.txt
 #
-#	$Id: 4dd40fef07deeb14e5dcce7434ffa9ac573d7107 $
+#	$Id: 0bbfc571674902083397ae3018e3789aad426993 $
 #
 ATTRIBUTE	Acct-Input-Gigawords			52	integer
 ATTRIBUTE	Acct-Output-Gigawords			53	integer

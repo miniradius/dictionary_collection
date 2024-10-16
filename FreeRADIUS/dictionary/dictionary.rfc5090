@@ -1,11 +1,12 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: 17b3b1a3dbc2438f915a09d76ef45e8d4324faa9 $
 #
 #	Attributes and values defined in RFC 5090.
 #	http://www.ietf.org/rfc/rfc5090.txt
 #
-#	$Id: 2531b26e966cba82e4621c3486793c7d98880270 $
+#	$Id: 17b3b1a3dbc2438f915a09d76ef45e8d4324faa9 $
 #
 ATTRIBUTE	Digest-Response				103	string
 ATTRIBUTE	Digest-Realm				104	string

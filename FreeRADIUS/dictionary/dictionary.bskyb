@@ -1,12 +1,12 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-#
+# Version $Id: c164e7dbc3ae8a4973fee82fded0c44c59f86dae $
 ##############################################################################
 #
 #	British Sky Broadcasting Group plc VSA's
 #
-#	$Id: af575a071e6219df76e6ac34a2424eee07551345 $
+#	$Id: c164e7dbc3ae8a4973fee82fded0c44c59f86dae $
 #
 ##############################################################################
 
@@ -14,13 +14,14 @@ VENDOR		BSkyB				16924
 
 BEGIN-VENDOR	BSkyB
 
-ATTRIBUTE	Sky-Wifi-AP-ID				1	integer
-ATTRIBUTE	Sky-Wifi-Service-ID			2	integer
-ATTRIBUTE	Sky-Wifi-Filter-Profile			3	string
-ATTRIBUTE	Sky-Wifi-Billing-Class			4	octets
-ATTRIBUTE	Sky-Wifi-Provider-ID			5	integer
-ATTRIBUTE	Sky-Wifi-Credentials			6	string
-ATTRIBUTE	Sky-Wifi-Replicated-Packet		7	string
-ATTRIBUTE	Sky-Wifi-Protocol-Restriction		8	integer
+ATTRIBUTE	Wifi-AP-ID				1	integer
+ATTRIBUTE	Wifi-Service-ID				2	integer
+ATTRIBUTE	Wifi-Filter-Profile			3	string
+ATTRIBUTE	Wifi-Billing-Class			4	octets
+ATTRIBUTE	Wifi-Provider-ID			5	integer
+ATTRIBUTE	Wifi-Credentials			6	string
+ATTRIBUTE	Wifi-Replicated-Packet			7	string
+ATTRIBUTE	Wifi-Protocol-Restriction		8	integer
 
 END-VENDOR	BSkyB
+ALIAS		BSkyB					Vendor-Specific.BSkyB

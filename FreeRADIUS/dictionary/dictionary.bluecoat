@@ -1,14 +1,14 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-#
+# Version $Id: 5bcf32e8893518534086ad76e798f73e87b33eea $
 ##############################################################################
 #
 #	BlueCoat VSAs
 #
 #	See also dictionary.packeteer for former Packeteer products.
 #
-#	$Id: 0af3c51c3b88dc7ed375311582d0c34fb1ec6b33 $
+#	$Id: 5bcf32e8893518534086ad76e798f73e87b33eea $
 #
 ##############################################################################
 
@@ -17,11 +17,12 @@ VENDOR		BlueCoat			14501
 BEGIN-VENDOR	BlueCoat
 
 # Accepts multiple groups as comma-separated list.
-ATTRIBUTE	Blue-Coat-Group				1	string
-ATTRIBUTE	Blue-Coat-Authorization			2	integer
+ATTRIBUTE	Group					1	string
+ATTRIBUTE	Authorization				2	integer
 
-VALUE	Blue-Coat-Authorization		No-Access		0
-VALUE	Blue-Coat-Authorization		Read-Only-Access	1
-VALUE	Blue-Coat-Authorization		Read-Write-Access	2
+VALUE	Authorization			No-Access		0
+VALUE	Authorization			Read-Only-Access	1
+VALUE	Authorization			Read-Write-Access	2
 
 END-VENDOR      BlueCoat
+ALIAS		BlueCoat				Vendor-Specific.BlueCoat

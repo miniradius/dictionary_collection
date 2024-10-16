@@ -1,12 +1,12 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-#
+# Version $Id: 4e50fe084875b9c1f54e39b475a32134519b8879 $
 ##############################################################################
 #
 #	Citrix VSAs
 #
-#	$Id: 3cba3d6ee6372273b7b84a36a4e419b8803e8f8b $
+#	$Id: 4e50fe084875b9c1f54e39b475a32134519b8879 $
 #
 ##############################################################################
 
@@ -14,12 +14,13 @@ VENDOR		Citrix				66
 
 BEGIN-VENDOR	Citrix
 
-ATTRIBUTE	Citrix-UID				10	integer
-ATTRIBUTE	Citrix-GID				11	integer
-ATTRIBUTE	Citrix-Home				12	string
-ATTRIBUTE	Citrix-Shell				13	string
-ATTRIBUTE	Citrix-Group-Names			14	string
-ATTRIBUTE	Citrix-Group-Ids			15	string
-ATTRIBUTE	Citrix-User-Groups			16	string
+ATTRIBUTE	UID					10	integer
+ATTRIBUTE	GID					11	integer
+ATTRIBUTE	Home					12	string
+ATTRIBUTE	Shell					13	string
+ATTRIBUTE	Group-Names				14	string
+ATTRIBUTE	Group-Ids				15	string
+ATTRIBUTE	User-Groups				16	string
 
 END-VENDOR Citrix
+ALIAS		Citrix					Vendor-Specific.Citrix

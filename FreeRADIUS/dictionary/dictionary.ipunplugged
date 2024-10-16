@@ -1,13 +1,15 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-#
+# Version $Id: 0590d097e41a3275fd780fb08efff42a708ef08d $
 ##############################################################################
 #
 #	ipUnplugged
-#	http://www.ipunplugged.com/
+#	Purchased by RadioIP in 2009.
 #
-#	$Id: d34dff8d381e249b355499254b44aaf3854b4bad $
+#	http://www.radioip.com/
+#
+#	$Id: 0590d097e41a3275fd780fb08efff42a708ef08d $
 #
 ##############################################################################
 
@@ -15,15 +17,16 @@ VENDOR		ipUnplugged			5925
 
 BEGIN-VENDOR	ipUnplugged
 
-ATTRIBUTE	IPU-MIP-Spi				51	integer
-ATTRIBUTE	IPU-MIP-Key				52	string
-ATTRIBUTE	IPU-MIP-Alg-Type			53	integer
-ATTRIBUTE	IPU-MIP-Alg-Mode			54	integer
-ATTRIBUTE	IPU-MIP-Replay-Prot			55	integer
-ATTRIBUTE	IPU-IKE-Remote-Addr			61	ipaddr
-ATTRIBUTE	IPU-IKE-Local-Addr			62	ipaddr
-ATTRIBUTE	IPU-IKE-Auth				63	string
-ATTRIBUTE	IPU-IKE-Conf-Name			64	string
-ATTRIBUTE	IPU-IKE-Cmd				65	string
+ATTRIBUTE	MIP-Spi					51	integer
+ATTRIBUTE	MIP-Key					52	string
+ATTRIBUTE	MIP-Alg-Type				53	integer
+ATTRIBUTE	MIP-Alg-Mode				54	integer
+ATTRIBUTE	MIP-Replay-Prot				55	integer
+ATTRIBUTE	IKE-Remote-Addr				61	ipaddr
+ATTRIBUTE	IKE-Local-Addr				62	ipaddr
+ATTRIBUTE	IKE-Auth				63	string
+ATTRIBUTE	IKE-Conf-Name				64	string
+ATTRIBUTE	IKE-Cmd					65	string
 
 END-VENDOR	ipUnplugged
+ALIAS		ipUnplugged				Vendor-Specific.ipUnplugged

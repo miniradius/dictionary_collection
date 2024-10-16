@@ -1,16 +1,14 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-#
-
-# A duplicate name that they use
+# Version $Id: f33df13942b26f7395b1317545a9d56e25268748 $
 VALUE	Service-Type			Sip-session		12
 
 #  Columbia University VSAs, from:
 #
 #  http://www.cs.columbia.edu/IRT/cinema/release/radius_notes.html
 #
-#	$Id: 0015d7febfad7df240ebb7502ef9e3028470a0e5 $
+#	$Id: f33df13942b26f7395b1317545a9d56e25268748 $
 #
 VENDOR		Columbia-University		11862
 
@@ -27,3 +25,4 @@ VALUE	Sip-Method			REGISTER		2
 VALUE	Sip-Method			OTHER			3
 
 END-VENDOR	Columbia-University
+ALIAS		Columbia-University			Vendor-Specific.Columbia-University

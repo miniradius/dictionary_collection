@@ -1,7 +1,7 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-#
+# Version $Id: 33e06bd5ee834c04dff1af567baed52f8eb4b8d0 $
 ##############################################################################
 #
 #   DANTE Vendor Specific Attributes Dictionary
@@ -18,3 +18,4 @@ ATTRIBUTE	Default-TTL				1	integer
 
 END-VENDOR DANTE
 
+ALIAS		DANTE					Vendor-Specific.DANTE

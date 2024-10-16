@@ -1,12 +1,12 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-#
+# Version $Id: aca44342cdf26f638df095d7a400ccdb72373b51 $
 ##############################################################################
 #
 #	Roaring Penguin attributes
 #
-#	$Id: 95cba28a1b81921efc90c681639709f602f94a69 $
+#	$Id: aca44342cdf26f638df095d7a400ccdb72373b51 $
 #
 ##############################################################################
 
@@ -15,18 +15,19 @@ VENDOR		Roaring-Penguin			10055
 BEGIN-VENDOR	Roaring-Penguin
 
 # Upstream speed limit in kb/s
-ATTRIBUTE	RP-Upstream-Speed-Limit			1	integer
+ATTRIBUTE	Upstream-Speed-Limit			1	integer
 
 # Downstream speed limit in kb/s
-ATTRIBUTE	RP-Downstream-Speed-Limit		2	integer
+ATTRIBUTE	Downstream-Speed-Limit			2	integer
 
 # Send a HURL
-ATTRIBUTE	RP-HURL					3	string
+ATTRIBUTE	HURL					3	string
 
 # Send a MOTM
-ATTRIBUTE	RP-MOTM					4	string
+ATTRIBUTE	MOTM					4	string
 
 # Maximum sessions per user
-ATTRIBUTE	RP-Max-Sessions-Per-User		5	integer
+ATTRIBUTE	Max-Sessions-Per-User			5	integer
 
 END-VENDOR	Roaring-Penguin
+ALIAS		Roaring-Penguin				Vendor-Specific.Roaring-Penguin

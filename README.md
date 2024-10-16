@@ -2,7 +2,7 @@
 
 ## About
 
-- FreeRADIUS dictionary extracted from release 3.2.3 (2023-26-05), GNU GPL 2.0, https://github.com/FreeRADIUS/freeradius-server/releases
+- FreeRADIUS dictionary extracted from release 3.2.6 (2024-24-08), GNU GPL 2.0, https://github.com/FreeRADIUS/freeradius-server/releases
 - GNU Radius dictionary extracted from release 1.6.1 (2008-12-17), GNU GPL 3.0, https://www.gnu.org/software/radius/
 
 ## Notes about DHCP Option82 injected by RouterOS bridge

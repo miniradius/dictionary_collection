@@ -1,12 +1,12 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-#
+# Version $Id: 8dd3c071c7bb84843666318eed77874ba4ad881e $
 ##############################################################################
 #
 #	Ascend dictionary that illegally uses the RFC space.
 #
-#	$Id: b741c1f9d48d42dee068dd18e17932ab4aa8bc5d $
+#	$Id: 8dd3c071c7bb84843666318eed77874ba4ad881e $
 #
 ##############################################################################
 #
@@ -148,8 +148,8 @@ ATTRIBUTE	X-Ascend-Seconds-Of-History		238	integer
 ATTRIBUTE	X-Ascend-History-Weigh-Type		239	integer
 ATTRIBUTE	X-Ascend-Add-Seconds			240	integer
 ATTRIBUTE	X-Ascend-Remove-Seconds			241	integer
-ATTRIBUTE	X-Ascend-Data-Filter			242	abinary
-ATTRIBUTE	X-Ascend-Call-Filter			243	abinary
+ATTRIBUTE	X-Ascend-Data-Filter			242	string	abinary
+ATTRIBUTE	X-Ascend-Call-Filter			243	string	abinary
 ATTRIBUTE	X-Ascend-Idle-Limit			244	integer
 ATTRIBUTE	X-Ascend-Preempt-Limit			245	integer
 ATTRIBUTE	X-Ascend-Callback			246	integer
@@ -430,3 +430,4 @@ VALUE	X-Ascend-Data-Svc		Switched-ATM		69
 VALUE	X-Ascend-Data-Svc		Switched-FR		70
 VALUE	X-Ascend-Force-56		Force-56-No		0
 VALUE	X-Ascend-Force-56		Force-56-Yes		1
+ALIAS  Vendor-Specific.

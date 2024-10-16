@@ -1,18 +1,20 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: 891022a8f3a3bbd81855c283c4bd3c12c892d51f $
 #
 #	dictionary.meru
 #
-#	$Id: b5cee2430b529db0d88a161c5afc7280da7c467b $
+#	$Id: 891022a8f3a3bbd81855c283c4bd3c12c892d51f $
 #
 #
 VENDOR		Meru				15983
 
 BEGIN-VENDOR	Meru
 
-ATTRIBUTE	Meru-Access-Point-Id			1	integer
-ATTRIBUTE	Meru-Access-Point-Name			2	string
+ATTRIBUTE	Access-Point-Id				1	integer
+ATTRIBUTE	Access-Point-Name			2	string
 
 END-VENDOR      Meru
 
+ALIAS		Meru					Vendor-Specific.Meru

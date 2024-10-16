@@ -1,11 +1,12 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: 736dec257bddfa6da4e32aa3e4f9df7f9fd6666b $
 #
 #	Attributes and values defined in RFC 6572.
 #	http://www.ietf.org/rfc/rfc6572.txt
 #
-#	$Id: 65cc95bae67e1047d13a371748e9cdb6d45cc779 $
+#	$Id: 736dec257bddfa6da4e32aa3e4f9df7f9fd6666b $
 #
 
 ATTRIBUTE	Mobile-Node-Identifier			145	octets

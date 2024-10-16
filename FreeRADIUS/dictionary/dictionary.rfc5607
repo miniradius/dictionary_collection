@@ -1,11 +1,12 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: 6adb544af681becec8b95fd0e5f446a0aedf4e14 $
 #
 #	Attributes and values defined in RFC 5607.
 #	http://www.ietf.org/rfc/rfc5607.txt
 #
-#	$Id: ef47c5d8d7daa7631f698db394d2478f222f2472 $
+#	$Id: 6adb544af681becec8b95fd0e5f446a0aedf4e14 $
 #
 
 VALUE	Service-Type			Framed-Management	18

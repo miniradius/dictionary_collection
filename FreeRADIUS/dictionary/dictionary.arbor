@@ -1,12 +1,12 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-#
+# Version $Id: a5d9d73a50ddd20a82b1742e9003cda2b97332fc $
 ##############################################################################
 #
 #	Arbor networks.
 #
-#	$Id: 8ac3a0716ec0bb3b645eeb87699d911a9cfe9c22 $
+#	$Id: a5d9d73a50ddd20a82b1742e9003cda2b97332fc $
 #
 ##############################################################################
 
@@ -16,6 +16,7 @@ BEGIN-VENDOR	Arbor
 
 # Arbor-Privilege-Level = "system_admin or system_analyst or system_user"
 
-ATTRIBUTE	Arbor-Privilege-Level			1	string
+ATTRIBUTE	Privilege-Level				1	string
 
 END-VENDOR Arbor
+ALIAS		Arbor					Vendor-Specific.Arbor

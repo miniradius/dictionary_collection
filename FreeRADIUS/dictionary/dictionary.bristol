@@ -1,10 +1,13 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: e71718f799fedcac9b93ccd6394ca13603ff4ff6 $
+#
+# dictionary.bristol
 #
 #  RoamNode VSA's
 #
-# Version:      $Id: d2fe1f1199d369f960a2a3da36ebd77ae062dcd3 $
+# Version:      $Id: e71718f799fedcac9b93ccd6394ca13603ff4ff6 $
 #
 
 VENDOR		Bristol				4363
@@ -21,3 +24,4 @@ ATTRIBUTE	NN-Homeservice				4	ipaddr
 ATTRIBUTE	NN-Homeservice-Name			5	string
 
 END-VENDOR	Bristol
+ALIAS		Bristol					Vendor-Specific.Bristol

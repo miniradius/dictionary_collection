@@ -1,13 +1,14 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: febf67dc95eb7217f3bd23ceb4c4fa8ddf0133c0 $
 #
 # dictionary.navini
 #
 #               By
 #               "Paul Shields" <pshields@navini.com>
 #
-# Version:      $Id: 24e644e69f5de8d0aaebfc830747a555254f172a $
+# Version:      $Id: febf67dc95eb7217f3bd23ceb4c4fa8ddf0133c0 $
 #
 
 VENDOR		Navini				6504
@@ -17,6 +18,7 @@ VENDOR		Navini				6504
 #
 BEGIN-VENDOR	Navini
 
-ATTRIBUTE	Navini-AVPair				1	string
+ATTRIBUTE	AVPair					1	string
 
 END-VENDOR	Navini
+ALIAS		Navini					Vendor-Specific.Navini

@@ -1,11 +1,12 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: 5584d5eb461a77d01139dbef4e784a5d8a824ec5 $
 #
 #	Attributes and values defined in RFC 4675.
 #	http://www.ietf.org/rfc/rfc4675.txt
 #
-#	$Id: 6c3b64de26aee6d6dcf601b705e1df48de3cbcb3 $
+#	$Id: 5584d5eb461a77d01139dbef4e784a5d8a824ec5 $
 #
 
 #

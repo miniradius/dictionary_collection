@@ -1,9 +1,10 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: dc2b1b28139bf9ccc79887e04220b5917b21bf9e $
 #
 #	NetworkPhysics dictionary
-#	$Id: 7e09519d1a3497edbb99545a4dab8c15befc169f $
+#	$Id: dc2b1b28139bf9ccc79887e04220b5917b21bf9e $
 #
 VENDOR		NetworkPhysics			7119
 
@@ -17,3 +18,4 @@ ATTRIBUTE	NetSensory-Privilege			33	string
 #VALUE		NetSensory-Privilege		Administrative	'npadmin'
 
 END-VENDOR	NetworkPhysics
+ALIAS		NetworkPhysics				Vendor-Specific.NetworkPhysics

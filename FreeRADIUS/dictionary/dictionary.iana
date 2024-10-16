@@ -1,11 +1,12 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: bab979884266cf4e004b1c473ffb574dbeb95b78 $
 #
 #	Mostly values which have been allocated by IANA under
 #	"expert review", but which don't have an RFC associated with them.
 #
-#	$Id: 9f936c5d2ef03f3c05dfc2445e534a09c9f7074a $
+#	$Id: bab979884266cf4e004b1c473ffb574dbeb95b78 $
 #
 
 #	draft-sterman-aaa-sip-00.txt
@@ -13,7 +14,18 @@
 #	This is bad... at some point the IETF will allocate these.
 #
 ATTRIBUTE	Digest-Response				206	string
-ATTRIBUTE	Digest-Attributes			207	octets	# stupid format
+ATTRIBUTE	Digest-Attributes			207	tlv
+ATTRIBUTE	Realm					.1	string
+ATTRIBUTE	Nonce					.2	string
+ATTRIBUTE	Method					.3	string
+ATTRIBUTE	URI					.4	string
+ATTRIBUTE	QOP					.5	string
+ATTRIBUTE	Algorithm				.6	string
+ATTRIBUTE	Body-Digest				.7	string
+ATTRIBUTE	CNonce					.8	string
+ATTRIBUTE	Nonce-Count				.9	string
+ATTRIBUTE	User-Name				.10	string
+ATTRIBUTE	HA1					.11	string
 
 #
 #	Integer Translations
@@ -41,8 +53,6 @@ VALUE	NAS-Port-Type			Wireless-XGP		36
 
 VALUE	Framed-Protocol			PPTP			9
 
-#
-#  https://freeradius.org/rfc/acct_status_type_subsystem.html
-#
 VALUE	Acct-Status-Type		Subsystem-On		18
 VALUE	Acct-Status-Type		Subsystem-Off		19
+

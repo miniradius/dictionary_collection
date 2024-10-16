@@ -1,8 +1,10 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: 552081a4b904b75b1d81349aaf044af0d54ce126 $
 #
 # Gemtek Systems VSA's
+# Version: dictionary.gemtek, v1.2 2004/07/13
 
 VENDOR		Gemtek				10529
 
@@ -18,3 +20,4 @@ ATTRIBUTE	Acct-Session-Octets			25	integer
 ATTRIBUTE	Acct-Session-Gigawords			26	integer
 
 END-VENDOR Gemtek
+ALIAS		Gemtek					Vendor-Specific.Gemtek

@@ -1,7 +1,7 @@
 # -*- text -*-
-# Copyright (C) 2020 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-# Version $Id: 8dbea47ebb49cca2aa5b525d95e74ee832be2ff4 $
+# Version $Id: a5978607149bc3ed4cadda8fd54f71d811e95989 $
 ##############################################################################
 #
 #	Arista VSAs
@@ -12,18 +12,19 @@
 VENDOR		Arista				30065
 BEGIN-VENDOR	Arista
 
-ATTRIBUTE	Arista-AVPair				1	string
-ATTRIBUTE	Arista-User-Priv-Level			2	integer
-ATTRIBUTE	Arista-User-Role			3	string
-ATTRIBUTE	Arista-CVP-Role				4	string
-ATTRIBUTE	Arista-Command				5	string
-ATTRIBUTE	Arista-WebAuth				6	integer
-ATTRIBUTE	Arista-BlockMac				7	string
-ATTRIBUTE	Arista-UnblockMac			8	string
-ATTRIBUTE	Arista-PortFlap				9	integer
-ATTRIBUTE	Arista-Captive-Portal			10	string
+ATTRIBUTE	AVPair					1	string
+ATTRIBUTE	User-Priv-Level				2	integer
+ATTRIBUTE	User-Role				3	string
+ATTRIBUTE	CVP-Role				4	string
+ATTRIBUTE	Command					5	string
+ATTRIBUTE	WebAuth					6	integer
+ATTRIBUTE	BlockMac				7	string
+ATTRIBUTE	UnblockMac				8	string
+ATTRIBUTE	PortFlap				9	integer
+ATTRIBUTE	Captive-Portal				10	string
 
-VALUE	Arista-WebAuth			start			1
-VALUE	Arista-WebAuth			complete		2
+VALUE	WebAuth				start			1
+VALUE	WebAuth				complete		2
 
 END-VENDOR   Arista
+ALIAS		Arista					Vendor-Specific.Arista

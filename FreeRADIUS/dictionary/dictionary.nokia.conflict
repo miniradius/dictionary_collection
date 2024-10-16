@@ -1,12 +1,12 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-#
+# Version $Id: 3e8aa0139dd5def58b4de82a7f94669d3bfd3f9f $
 ##############################################################################
 #
 #	Nokia dictionary for attributes that conflict with other dictionaries.
 #
-#	$Id: 5ff9fda0cb4bd3b4e0a6d1196a9d2341c227a21d $
+#	$Id: 3e8aa0139dd5def58b4de82a7f94669d3bfd3f9f $
 #
 ##############################################################################
 
@@ -30,3 +30,4 @@ ATTRIBUTE	Nokia-Prepaid-Ind			226	integer
 ATTRIBUTE	Nokia-GGSN-IP-Address			227	ipaddr
 ATTRIBUTE	Nokia-SGSN-IP-Address			228	ipaddr
 
+ALIAS  Vendor-Specific.

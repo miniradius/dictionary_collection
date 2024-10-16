@@ -1,12 +1,12 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-#
+# Version $Id: 110e91f824f2ff581f47745b693d0f3fe67975a6 $
 ##############################################################################
 #
 #       WiFi-Alliance attributes for Hotspot 2.0
 #
-#       $Id: a8955618027ba007beb09c82bf1eeafd1cddf4f1 $
+#       $Id: 110e91f824f2ff581f47745b693d0f3fe67975a6 $
 #
 ##############################################################################
 
@@ -77,18 +77,12 @@ ATTRIBUTE	HS20-Deauthentication-Request		4	octets
 #
 #  Session Information URL field: URL which is transmitted to a mobile
 #  device in a BSS Transition Management Request frame SWT minutes
-#  before the mobile device’s session is terminated. The URL provides
+#  before the mobile device's session is terminated. The URL provides
 #  the location of a webpage with information for the user on how to
 #  extend the session.
 #
 ATTRIBUTE	HS20-Session-Information-URL		5	octets
-
-#  Values are:
-#
-#  5A-03-BA-00-00 OpenRoaming for All Identities, settlement-free, no personal data requested, baseline QoS
-#  5A-03-BA-08-00 "OpenRoaming for Educational or Research Identities, settlement-free, no personal data requested, baseline QoS"
-ATTRIBUTE      HS20-Roaming-Consortium                 6       octets
-
-
+ATTRIBUTE	HS20-Roaming-Consortium			6	octets
 
 END-VENDOR    WiFi-Alliance
+ALIAS		WiFi-Alliance				Vendor-Specific.WiFi-Alliance

@@ -1,21 +1,23 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: 9d8f01751ed5c2551d3e9be3c0e4105f4577b67b $
 #
 #	Allegedly for ProFTPd.
 #
-#	$Id: fe5b09aa1a788cb96b90eb2f8d4e4b0439776de7 $
+#	$Id: 9d8f01751ed5c2551d3e9be3c0e4105f4577b67b $
 #
 
 VENDOR		Unix				4
 
 BEGIN-VENDOR	Unix
 
-ATTRIBUTE	Unix-FTP-UID				10	integer
-ATTRIBUTE	Unix-FTP-GID				11	integer
-ATTRIBUTE	Unix-FTP-Home				12	string
-ATTRIBUTE	Unix-FTP-Shell				13	string
-ATTRIBUTE	Unix-FTP-Group-Names			14	string
-ATTRIBUTE	Unix-FTP-Group-Ids			15	string
+ATTRIBUTE	FTP-UID					10	integer
+ATTRIBUTE	FTP-GID					11	integer
+ATTRIBUTE	FTP-Home				12	string
+ATTRIBUTE	FTP-Shell				13	string
+ATTRIBUTE	FTP-Group-Names				14	string
+ATTRIBUTE	FTP-Group-Ids				15	string
 
 END-VENDOR	Unix
+ALIAS		Unix					Vendor-Specific.Unix

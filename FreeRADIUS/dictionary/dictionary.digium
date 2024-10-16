@@ -1,15 +1,15 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-#
+# Version $Id: 47ba3be696233edbf4617ed9cc57fb240c74c56b $
 ##############################################################################
 #
 #       Digium's Asterisk specific radius attributes
 #	markster@digium.com
 #
-#	http://bugs.digium.com/file_download.php\?file_id=9688\&type=bug
+#	https://github.com/asterisk/asterisk/blob/master/contrib/dictionary.digium
 #
-#	$Id: 937f2d4cb9fed8f40ff742a43e02edc5e9ef15ea $
+#	$Id: 47ba3be696233edbf4617ed9cc57fb240c74c56b $
 #
 ##############################################################################
 
@@ -37,3 +37,4 @@ ATTRIBUTE	Asterisk-Unique-ID			117	string
 ATTRIBUTE	Asterisk-User-Field			118	string
 
 END-VENDOR	Digium
+ALIAS		Digium					Vendor-Specific.Digium

@@ -1,11 +1,11 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-#
+# Version $Id: c923cb468e7ecdb4934aaba0c681cad2cf5aafa1 $
 ##############################################################################
 # Nexans Active Networking Systems dictionary  http://www.nexans.de/ans
 #
-# Version:      $Id: a4f62103ea6504b8580edeab529c5643d1a89518 $
+# Version:      $Id: c923cb468e7ecdb4934aaba0c681cad2cf5aafa1 $
 #
 #               Hubert Theissen <h.theissen@nexans.com>
 #
@@ -15,7 +15,8 @@ VENDOR		Nexans				266
 
 BEGIN-VENDOR	Nexans
 
-ATTRIBUTE	Nexans-Port-Default-VLAN-ID		1	integer
-ATTRIBUTE	Nexans-Port-Voice-VLAN-ID		2	integer
+ATTRIBUTE	Port-Default-VLAN-ID			1	integer
+ATTRIBUTE	Port-Voice-VLAN-ID			2	integer
 
 END-VENDOR      Nexans
+ALIAS		Nexans					Vendor-Specific.Nexans

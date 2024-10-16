@@ -1,7 +1,7 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
-#
+# Version $Id: d1ce50e5f7f38d4b55b937a53d8e0a98cbe30bf9 $
 ##############################################################################
 #
 #	Motorola Canopy attributes.
@@ -9,7 +9,7 @@
 #	See also dictionary.motorola.illegal.  You can use that one
 #	by listing it in raddb/dictionary.
 #
-#	$Id: bbddb370e49cb87443e6e21dbf8f18884a33cc98 $
+#	$Id: d1ce50e5f7f38d4b55b937a53d8e0a98cbe30bf9 $
 #
 ##############################################################################
 
@@ -27,3 +27,4 @@ ATTRIBUTE	Motorola-Canopy-HPSDLDR			234	string
 ATTRIBUTE	Motorola-Canopy-HIGHERBW		235	string
 ATTRIBUTE	Motorola-Canopy-CIRENABLE		236	string
 
+ALIAS  Vendor-Specific.

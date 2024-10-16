@@ -1,21 +1,23 @@
 # -*- text -*-
-# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# Copyright (C) 2023 The FreeRADIUS Server project and contributors
 # This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+# Version $Id: 3651593d1bf84b59c1b32c9ec558022d6ba85665 $
 #
 #	 Cisco VPN 5000 Concentrator Dictionary
 #
 #	http://www.cisco.com/univercd/cc/td/doc/product/access/acs_soft/csacs4nt/csnt30/user/ad.htm
 #
-#	$Id: 70906eda6473a2ec193aaa8243564193ab759480 $
+#	$Id: 3651593d1bf84b59c1b32c9ec558022d6ba85665 $
 #
 VENDOR		Cisco-VPN5000			255
 
 BEGIN-VENDOR	Cisco-VPN5000
-ATTRIBUTE	CVPN5000-Tunnel-Throughput		1	integer
-ATTRIBUTE	CVPN5000-Client-Assigned-IP		2	string
-ATTRIBUTE	CVPN5000-Client-Real-IP			3	string
-ATTRIBUTE	CVPN5000-VPN-GroupInfo			4	string
-ATTRIBUTE	CVPN5000-VPN-Password			5	string
-ATTRIBUTE	CVPN5000-Echo				6	integer
-ATTRIBUTE	CVPN5000-Client-Assigned-IPX		7	integer
+ATTRIBUTE	Tunnel-Throughput			1	integer
+ATTRIBUTE	Client-Assigned-IP			2	string
+ATTRIBUTE	Client-Real-IP				3	ipaddr
+ATTRIBUTE	VPN-GroupInfo				4	string
+ATTRIBUTE	VPN-Password				5	string
+ATTRIBUTE	Echo					6	integer
+ATTRIBUTE	Client-Assigned-IPX			7	integer
 END-VENDOR  Cisco-VPN5000
+ALIAS		Cisco-VPN5000				Vendor-Specific.Cisco-VPN5000
